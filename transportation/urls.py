@@ -15,7 +15,7 @@ router.register('seats', views.SeatsView)
 
 
 urlpatterns = [
-    path('', include(router.urls)),
+    path('api/', include(router.urls)),
     path('auth/login/', views.LoginView.as_view(), name="auth-login"),
     path('auth/register/', views.RegisterUsers.as_view(), name="auth-register"),
 
