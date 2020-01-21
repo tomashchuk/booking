@@ -8,8 +8,8 @@ from django.conf import settings
 
 # AUTH_USER_MODEL = "transportation.User"
 
-SECRET_KEY = 'qx6ps$h(q2y1w6rgl_ek(x)bgv9^k&i8dc=xu(%knr+yag@**h'
-
+# SECRET_KEY = 'qx6ps$h(q2y1w6rgl_ek(x)bgv9^k&i8dc=xu(%knr+yag@**h'
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 JWT_AUTH = {
     'JWT_ENCODE_HANDLER':
@@ -56,7 +56,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bookingstest.herokuapp.com']
 
 
 # Application definition
