@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fd870a6-3ba3-4c50-88da-fc71ad21db3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testair/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/testair/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +123,7 @@
       <workItem from="1579443220660" duration="25944000" />
       <workItem from="1579527641180" duration="231000" />
       <workItem from="1579529076181" duration="9699000" />
-      <workItem from="1579546247364" duration="15723000" />
+      <workItem from="1579546247364" duration="16580000" />
     </task>
     <servers />
   </component>
@@ -146,6 +144,10 @@
       <screen x="0" y="21" width="1366" height="747" />
     </state>
     <state x="143" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.21.1366.747@0.21.1366.747" timestamp="1579217743376" />
+    <state x="428" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579568418079">
+      <screen x="0" y="21" width="1366" height="747" />
+    </state>
+    <state x="428" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.21.1366.747@0.21.1366.747" timestamp="1579568418079" />
     <state x="464" y="21" key="FileChooserDialogImpl" timestamp="1579541434986">
       <screen x="0" y="21" width="1366" height="747" />
     </state>
