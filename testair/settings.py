@@ -1,6 +1,7 @@
 import os
 from datetime import timedelta
 import datetime
+import django_heroku
 
 
 # SECURITY WARNING: keep the secret key used in production secret!
@@ -166,3 +167,5 @@ REST_FRAMEWORK = {
     ],
 
 }
+
+django_heroku.settings(locals())
