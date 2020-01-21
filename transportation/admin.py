@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import AirportsData, AircraftsData, Bookings, BoardingPasses, Flights, TicketFlights, Tickets, Seats
 
-# Register your models here.
+admin.site.register(AirportsData, AircraftsData, Bookings, BoardingPasses, Flights, TicketFlights, Tickets, Seats)
