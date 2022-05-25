@@ -17,7 +17,7 @@ numpy==1.18.1
 patterns==0.3
 psycopg2==2.8.4
 public==2019.4.13
-PyJWT==1.7.1
+PyJWT==2.4.0
 pytz==2019.3
 query-string==2019.4.13
 sqlparse==0.3.0
